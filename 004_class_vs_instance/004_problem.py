@@ -19,9 +19,9 @@ class Person:
         # Increment the age of the person in here
         self.age += 1
 
-t = int(input())
+t = int(input("Number of test cases? "))
 for i in range(0, t):
-    age = int(input())
+    age = int(input("Enter the age: "))
     p = Person(age)
     p.amIOld()
     for j in range(0, 3):
